@@ -1,0 +1,137 @@
+body{
+    background-attachment: fixed;
+    background: url(img/background.jpg);
+    background-size: 100%;
+}
+.brief{
+    font-family: harrington;
+    font-weight: bold;
+}
+.outerdiv{
+    display:flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#zodiak1{
+    
+   
+    color: black;
+    background-color:transparent;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    width: 150px;
+    height: 100%;
+    padding-right: 10px;
+}
+
+
+
+#zodiak1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#result{
+    display: flex;
+    width: 300px;
+    
+    color: yellow;
+  
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+#percentage{
+    position: relative;
+    font-family: harrington;
+    font-weight: bolder;
+    font-size: 40px;
+   
+    
+}
+#result img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.resultPercentage{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+}
+#zodiak2{
+    
+    
+    color: black;
+    background-color:transparent;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    width: 150px;
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+
+#zodiak2 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.outerdiv2{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.list1{
+    display: flex;
+    width: 150px;
+    
+    color: black;
+    
+    height: 100%;
+    justify-content: center
+}
+
+.list2{
+    display: flex;
+    width: 150px;
+    
+    color: black;
+    
+    height: 100%;
+    justify-content: center
+}
+#select1{
+    height: 50%;
+    position: relative;
+    top: 25%;
+}
+#select2{
+    height: 50%;
+    position: relative;
+    top: 25%;
+}
+
+#lastDiv{
+    display:flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px;
+}

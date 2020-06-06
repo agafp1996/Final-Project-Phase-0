@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Astro Matcher</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+     
+   </head>
+
+   <body>
+        <h1 style="text-align:center" class="brief">My (un?)Lucky Star</h1>
+        <p style="text-align:center" class="brief"> Have you ever been in a relationship, had a crush, or STARstrucked by someone? <br> Well of course you have! However, have you ever felt unsure if this guy/girl the right person for you?<br> Worry not my friend you can figure it out in seconds by using our Astro Matcher below <br> it will tell you how compatible you are with your partner based on your sun sign
+        </p>
+        <div class="outerdiv">
+            <div id="zodiak1">
+                
+                <img src = "img/placeholder.png">
+            </div>
+            <div id="result">
+                <img src = "img/question.png">
+            </div>
+            <div id="zodiak2">
+                <img src = "img/placeholder.png">
+            </div>
+        </div>
+        <div class ="outerdiv2">
+            <div class="list1">
+                <select id="select1" onchange="getSelectValue1()">
+                    <option value="Zodiac?">Zodiac?</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                  </select>
+            </div>
+            <div class="resultPercentage">
+                <p id="percentage">
+                    Your fate here
+
+                </p>
+                
+                
+            </div>
+            <div class="list2">
+                <select id="select2" onchange="getSelectValue2()">
+                    <option value="Zodiac?">Zodiac?</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                  </select>
+            </div>
+        </div>
+        <div id="lastDiv">
+            <div>
+                <button id ="button" onclick ="process()">Click to reveal your (mis?)fortune!</button>
+            </div>
+        </div>
+        
+
+          <script src="app.js" type="text/javascript"></script>
+   </body>
+</html>
